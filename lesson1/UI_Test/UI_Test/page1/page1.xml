@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <widgets>
+      <widget name="animatedImage3" class="AnimatedImage">
+        <property name="loop" />
+        <property name="interval">
+          <number>500</number>
+        </property>
+        <property name="images">
+          <image>40.jpg</image>
+          <image>41.png</image>
+          <image>42.png</image>
+          <image>43.png</image>
+          <image>44.png</image>
+        </property>
+        <property name="rect">
+          <x>488</x>
+          <y>368</y>
+          <width>300</width>
+          <height>100</height>
+        </property>
+      </widget>
+      <widget name="animatedImage2" class="AnimatedImage">
+        <property name="loop" />
+        <property name="interval">
+          <number>200</number>
+        </property>
+        <property name="images">
+          <image>39.png</image>
+          <image>30.png</image>
+        </property>
+        <property name="rect">
+          <x>154</x>
+          <y>416</y>
+          <width>188</width>
+          <height>40</height>
+        </property>
+      </widget>
+      <widget click="startrun" name="button1" class="Button" bindtap="startrun">
+        <property name="text">
+          <string>让广告飞！！！</string>
+        </property>
+        <property name="norImg">
+          <string>button_nor.png</string>
+        </property>
+        <property name="downImg">
+          <string>button_down.png</string>
+        </property>
+        <property name="rect">
+          <x>12</x>
+          <y>363</y>
+          <width>119</width>
+          <height>47</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>0</r>
+          <g>128</g>
+          <b>255</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>17</size>
+        </property>
+      </widget>
+      <widget name="animatedImage1" class="AnimatedImage">
+        <property name="loop" />
+        <property name="interval">
+          <number>500</number>
+        </property>
+        <property name="images">
+          <image>31.png</image>
+          <image>32.png</image>
+          <image>33.png</image>
+          <image>34.png</image>
+          <image>35.png</image>
+          <image>36.png</image>
+          <image>37.png</image>
+          <image>38.png</image>
+        </property>
+        <property name="rect">
+          <x>335</x>
+          <y>364</y>
+          <width>147</width>
+          <height>92</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="imagebox4" class="ImageBox">
+        <property name="img">
+          <string>logo.png</string>
+        </property>
+        <property name="rect">
+          <x>12</x>
+          <y>416</y>
+          <width>119</width>
+          <height>43</height>
+        </property>
+      </widget>
+      <widget name="card1" class="Card">
+        <property name="direction">
+          <enum>HORIZONTAL | CYCLE</enum>
+        </property>
+        <property name="rect">
+          <x>0</x>
+          <y>50</y>
+          <width>800</width>
+          <height>300</height>
+        </property>
+        <widgets>
+          <widget name="imagebox2" class="ImageBox">
+            <property name="img">
+              <string>11.png</string>
+            </property>
+            <property name="rect">
+              <x>0</x>
+              <y>50</y>
+              <width>200</width>
+              <height>100</height>
+            </property>
+          </widget>
+          <widget name="imagebox1" class="ImageBox">
+            <property name="img">
+              <string>10.png</string>
+            </property>
+            <property name="rect">
+              <x>0</x>
+              <y>50</y>
+              <width>800</width>
+              <height>300</height>
+            </property>
+          </widget>
+          <widget name="imagebox3" class="ImageBox">
+            <property name="img">
+              <string>12.png</string>
+            </property>
+            <property name="rect">
+              <x>0</x>
+              <y>50</y>
+              <width>800</width>
+              <height>300</height>
+            </property>
+          </widget>
+        </widgets>
+      </widget>
+      <widget name="label1" class="Label">
+        <property name="text">
+          <string>Word天！他18年在RT-Thread学习嵌入式，现在年薪20W</string>
+        </property>
+        <property name="rect">
+          <x>0</x>
+          <y>0</y>
+          <width>800</width>
+          <height>50</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>26</size>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>
