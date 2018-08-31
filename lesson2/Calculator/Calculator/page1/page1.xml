@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <property name="backgroundImg">
+      <string>Calculator.png</string>
+    </property>
+    <widgets>
+      <widget name="label1" class="Label">
+        <property name="rect">
+          <x>162</x>
+          <y>76</y>
+          <width>473</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_RIGHT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>150</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>40</size>
+        </property>
+      </widget>
+      <widget name="btnEqu" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>517</x>
+          <y>412</y>
+          <width>118</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="btnClear" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>280</x>
+          <y>149</y>
+          <width>120</width>
+          <height>69</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="btnAdd" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>517</x>
+          <y>346</y>
+          <width>118</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="btnSub" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>517</x>
+          <y>281</y>
+          <width>118</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="btnMul" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>517</x>
+          <y>214</y>
+          <width>118</width>
+          <height>70</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="btnDiv" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>517</x>
+          <y>149</y>
+          <width>118</width>
+          <height>69</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="btnback" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>397</x>
+          <y>149</y>
+          <width>122</width>
+          <height>69</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="numdot" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>397</x>
+          <y>412</y>
+          <width>122</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num9" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>397</x>
+          <y>214</y>
+          <width>122</width>
+          <height>70</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num8" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>280</x>
+          <y>214</y>
+          <width>120</width>
+          <height>70</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num7" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>162</x>
+          <y>214</y>
+          <width>120</width>
+          <height>70</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num6" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>397</x>
+          <y>281</y>
+          <width>122</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num5" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>280</x>
+          <y>281</y>
+          <width>120</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num4" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>162</x>
+          <y>281</y>
+          <width>120</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num3" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>397</x>
+          <y>346</y>
+          <width>122</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num2" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>280</x>
+          <y>346</y>
+          <width>120</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num1" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>162</x>
+          <y>346</y>
+          <width>120</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="num0" class="Button" bindtap="onButton">
+        <property name="downImg">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>280</x>
+          <y>412</y>
+          <width>120</width>
+          <height>68</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>
