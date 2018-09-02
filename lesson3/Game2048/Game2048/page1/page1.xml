@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <property name="backgroundImg">
+      <string>2.png</string>
+    </property>
+    <widgets>
+      <widget name="slider2" class="Slider" bindchange="direction">
+        <property name="minValue">
+          <number>0</number>
+        </property>
+        <property name="maxValue">
+          <number>100</number>
+        </property>
+        <property name="currentValue">
+          <number>0</number>
+        </property>
+        <property name="direction">
+          <enum>VERTICAL</enum>
+        </property>
+        <property name="rect">
+          <x>328</x>
+          <y>66</y>
+          <width>154</width>
+          <height>351</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="button1" class="Button" bindtap="onstart">
+        <property name="text">
+          <string>Start</string>
+        </property>
+        <property name="rect">
+          <x>660</x>
+          <y>30</y>
+          <width>109</width>
+          <height>52</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>40</size>
+        </property>
+      </widget>
+      <widget name="slider1" class="Slider" bindchange="direction">
+        <property name="minValue">
+          <number>0</number>
+        </property>
+        <property name="maxValue">
+          <number>100</number>
+        </property>
+        <property name="currentValue">
+          <number>0</number>
+        </property>
+        <property name="rect">
+          <x>227</x>
+          <y>199</y>
+          <width>347</width>
+          <height>78</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="label15" class="Label">
+        <property name="rect">
+          <x>479</x>
+          <y>321</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label14" class="Label">
+        <property name="rect">
+          <x>402</x>
+          <y>321</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label13" class="Label">
+        <property name="rect">
+          <x>328</x>
+          <y>321</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label12" class="Label">
+        <property name="rect">
+          <x>254</x>
+          <y>317</y>
+          <width>68</width>
+          <height>71</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label11" class="Label">
+        <property name="rect">
+          <x>479</x>
+          <y>244</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label10" class="Label">
+        <property name="rect">
+          <x>402</x>
+          <y>244</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label9" class="Label">
+        <property name="rect">
+          <x>328</x>
+          <y>244</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label8" class="Label">
+        <property name="rect">
+          <x>254</x>
+          <y>244</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label7" class="Label">
+        <property name="rect">
+          <x>479</x>
+          <y>171</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label6" class="Label">
+        <property name="rect">
+          <x>402</x>
+          <y>171</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label5" class="Label">
+        <property name="rect">
+          <x>328</x>
+          <y>171</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label4" class="Label">
+        <property name="rect">
+          <x>254</x>
+          <y>171</y>
+          <width>68</width>
+          <height>67</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label3" class="Label">
+        <property name="rect">
+          <x>476</x>
+          <y>94</y>
+          <width>71</width>
+          <height>71</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label2" class="Label">
+        <property name="rect">
+          <x>402</x>
+          <y>94</y>
+          <width>68</width>
+          <height>71</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label1" class="Label">
+        <property name="rect">
+          <x>328</x>
+          <y>94</y>
+          <width>68</width>
+          <height>71</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+      <widget name="label0" class="Label">
+        <property name="rect">
+          <x>254</x>
+          <y>94</y>
+          <width>68</width>
+          <height>71</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>CAOMEIMHT.TTF</family>
+          <size>34</size>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>
