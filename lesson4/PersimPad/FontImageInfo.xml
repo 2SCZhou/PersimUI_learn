@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FilePaths>
+  <ImageFilePaths>
+    <ImageFilePath>wifi.png</ImageFilePath>
+    <ImageFilePath>power.png</ImageFilePath>
+    <ImageFilePath>sd.png</ImageFilePath>
+    <ImageFilePath>sound.png</ImageFilePath>
+    <ImageFilePath>light.png</ImageFilePath>
+    <ImageFilePath>ble.png</ImageFilePath>
+  </ImageFilePaths>
+  <FontFilePaths>
+    <FontFilePath>DROIDSANSFALLBACK.TTF</FontFilePath>
+  </FontFilePaths>
+</FilePaths>

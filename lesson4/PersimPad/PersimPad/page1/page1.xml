@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <property name="backgroundImg">
+      <string>deepin.png</string>
+    </property>
+    <widgets>
+      <widget name="label1" class="Label">
+        <property name="rect">
+          <x>202</x>
+          <y>80</y>
+          <width>396</width>
+          <height>62</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="foreground">
+          <a>255</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>40</size>
+        </property>
+      </widget>
+      <widget name="button1" class="Button" bindtap="onbutton">
+        <property name="downImg">
+          <string>7.png</string>
+        </property>
+        <property name="rect">
+          <x>340</x>
+          <y>296</y>
+          <width>120</width>
+          <height>112</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>
