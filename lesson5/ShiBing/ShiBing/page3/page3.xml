@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page3">
+    <property name="backgroundImg">
+      <string>t1.png</string>
+    </property>
+    <widgets>
+      <widget name="button1" class="Button" bindtap="onBtn">
+        <property name="rect">
+          <x>1</x>
+          <y>1</y>
+          <width>200</width>
+          <height>200</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="Canvas1" class="Canvas">
+        <property name="rect">
+          <x>293</x>
+          <y>208</y>
+          <width>470</width>
+          <height>260</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="label12" class="Label">
+        <property name="text">
+          <string>近三天气温走势</string>
+        </property>
+        <property name="rect">
+          <x>293</x>
+          <y>152</y>
+          <width>249</width>
+          <height>49</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+        <property name="foreground">
+          <a>255</a>
+          <r>64</r>
+          <g>0</g>
+          <b>0</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>28</size>
+        </property>
+      </widget>
+      <widget name="panel1" class="Panel">
+        <property name="rect">
+          <x>293</x>
+          <y>87</y>
+          <width>470</width>
+          <height>59</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>192</r>
+          <g>192</g>
+          <b>192</b>
+        </property>
+        <widgets>
+          <widget name="label11" class="Label">
+            <property name="rect">
+              <x>704</x>
+              <y>90</y>
+              <width>30</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>64</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>20</size>
+            </property>
+          </widget>
+          <widget name="label10" class="Label">
+            <property name="text">
+              <string>风力</string>
+            </property>
+            <property name="rect">
+              <x>648</x>
+              <y>91</y>
+              <width>50</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>210</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>14</size>
+            </property>
+          </widget>
+          <widget name="label9" class="Label">
+            <property name="rect">
+              <x>592</x>
+              <y>91</y>
+              <width>50</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>64</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>20</size>
+            </property>
+          </widget>
+          <widget name="label8" class="Label">
+            <property name="text">
+              <string>风向</string>
+            </property>
+            <property name="rect">
+              <x>536</x>
+              <y>91</y>
+              <width>50</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>210</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>14</size>
+            </property>
+          </widget>
+          <widget name="label7" class="Label">
+            <property name="rect">
+              <x>500</x>
+              <y>90</y>
+              <width>30</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>64</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>20</size>
+            </property>
+          </widget>
+          <widget name="label6" class="Label">
+            <property name="text">
+              <string>最低温</string>
+            </property>
+            <property name="rect">
+              <x>444</x>
+              <y>91</y>
+              <width>50</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>210</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>14</size>
+            </property>
+          </widget>
+          <widget name="label5" class="Label">
+            <property name="rect">
+              <x>408</x>
+              <y>91</y>
+              <width>30</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>64</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>20</size>
+            </property>
+          </widget>
+          <widget name="label4" class="Label">
+            <property name="text">
+              <string>最高温</string>
+            </property>
+            <property name="rect">
+              <x>352</x>
+              <y>91</y>
+              <width>50</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>210</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>14</size>
+            </property>
+          </widget>
+          <widget name="label3" class="Label">
+            <property name="rect">
+              <x>297</x>
+              <y>91</y>
+              <width>50</width>
+              <height>51</height>
+            </property>
+            <property name="align">
+              <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+            </property>
+            <property name="background">
+              <a>0</a>
+              <r>212</r>
+              <g>208</g>
+              <b>200</b>
+            </property>
+            <property name="foreground">
+              <a>255</a>
+              <r>64</r>
+              <g>0</g>
+              <b>0</b>
+            </property>
+            <property name="font">
+              <family>DROIDSANSFALLBACK.TTF</family>
+              <size>20</size>
+            </property>
+          </widget>
+        </widgets>
+      </widget>
+      <widget name="label1" class="Label">
+        <property name="text">
+          <string>上海今日天气</string>
+        </property>
+        <property name="rect">
+          <x>293</x>
+          <y>32</y>
+          <width>229</width>
+          <height>49</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_LEFT | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>255</r>
+          <g>255</g>
+          <b>255</b>
+        </property>
+        <property name="foreground">
+          <a>255</a>
+          <r>64</r>
+          <g>0</g>
+          <b>0</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>28</size>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

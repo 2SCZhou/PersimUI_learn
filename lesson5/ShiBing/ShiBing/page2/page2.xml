@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page2">
+    <property name="backgroundImg">
+      <string>shanghai.png</string>
+    </property>
+    <widgets>
+      <widget name="listctrl1" class="ListCtrl">
+        <property name="direction">
+          <enum>VERTICAL</enum>
+        </property>
+        <property name="gap">
+          <number>5</number>
+        </property>
+        <property name="rect">
+          <x>100</x>
+          <y>70</y>
+          <width>600</width>
+          <height>400</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="label2" class="Label">
+        <property name="rect">
+          <x>497</x>
+          <y>8</y>
+          <width>300</width>
+          <height>48</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>24</size>
+        </property>
+      </widget>
+      <widget name="label1" class="Label">
+        <property name="text">
+          <string>上海</string>
+        </property>
+        <property name="rect">
+          <x>60</x>
+          <y>8</y>
+          <width>70</width>
+          <height>48</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>30</size>
+        </property>
+      </widget>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>unity-webapps-linkedin.png</string>
+        </property>
+        <property name="rect">
+          <x>8</x>
+          <y>8</y>
+          <width>48</width>
+          <height>48</height>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

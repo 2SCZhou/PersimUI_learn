@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FilePaths>
+  <ImageFilePaths>
+    <ImageFilePath>huangli.png</ImageFilePath>
+    <ImageFilePath>wether.png</ImageFilePath>
+  </ImageFilePaths>
+  <FontFilePaths>
+    <FontFilePath>DROIDSANSFALLBACK.TTF</FontFilePath>
+  </FontFilePaths>
+</FilePaths>

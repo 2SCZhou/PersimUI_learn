@@ -1,0 +1,114 @@
+
+  <Object type="Library.custompanel, Library, Version=1.0.6828.17977, Culture=neutral, PublicKeyToken=null" name="custompanel1" children="Controls">
+    <Object type="Library.button, Library, Version=1.0.6828.17977, Culture=neutral, PublicKeyToken=null" name="button1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">MiddleCenter</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">DROIDSANSFALLBACK.TTF</Property>
+        <Property name="FontSize">26</Property>
+        <Property name="Opacity">0</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">74</Property>
+        <Property name="Y">6</Property>
+        <Property name="_Height">48</Property>
+        <Property name="_Name">button1</Property>
+        <Property name="_Width">500</Property>
+        <Property name="BkColor">0,212,208,200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="LongPress">False</Property>
+      <Property name="longPressMs">100</Property>
+      <Property name="longPressOnce">False</Property>
+      <Property name="Value">button</Property>
+      <Property name="Pressed_image" />
+      <Property name="Unpressed_image" />
+      <Property name="PathPressed_image">
+      </Property>
+      <Property name="PathUnpressed_image">
+      </Property>
+      <Property name="BindTap">cusBtn</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="BackColor">0, 212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">74, 6</Property>
+      <Property name="Name">button1</Property>
+      <Property name="Size">500, 48</Property>
+      <Property name="TabIndex">1</Property>
+    </Object>
+    <Object type="Library.imagebox, Library, Version=1.0.6828.17977, Culture=neutral, PublicKeyToken=null" name="imagebox1" children="Controls">
+      <Property name="PmWidget">
+        <Property name="Align">TopLeft</Property>
+        <Property name="BindTouchEnd">
+        </Property>
+        <Property name="BindTouchStart">
+        </Property>
+        <Property name="font">asc</Property>
+        <Property name="FontSize">12</Property>
+        <Property name="Opacity">255</Property>
+        <Property name="PathBackImage">
+        </Property>
+        <Property name="Visibled">False</Property>
+        <Property name="X">6</Property>
+        <Property name="Y">6</Property>
+        <Property name="_Height">48</Property>
+        <Property name="_Name">imagebox1</Property>
+        <Property name="_Width">48</Property>
+        <Property name="BkColor">255, 212, 208, 200</Property>
+        <Property name="FrColor">255,0,0,0</Property>
+      </Property>
+      <Property name="ImagePath">imageErr.png</Property>
+      <Property name="Text">imagebox1</Property>
+      <Property name="AllowDrop">True</Property>
+      <Property name="Image">
+        <Binary>iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4yMfEgaZUAAATDSURBVGhD1ZlryBRlFMfXS2pqqXkNu3gJIhDpYlIp2YeCoAjCIEH8IuKX0ASVPoSIJRZk9cVUSu1iUdSH7gppZqmpaaSSVmZ2UYvySmlaefv9ln1e9l232Zndd2dn//DD12dmnzln5jxnznkmV0Yd4HoYB4/DPHgiIzwG42EMdIL/1bXwPvwJp+FsBtGuv2EZaO8FGgZfw7kC/ugknMgQ2qNdwcYtMBha1APWgQfPwLtwA1ySQW6FN+Af0N7PoSfk9RD4yGQWXAxZVhd4Fnw6p+B+yHWEd0DvdsMAaAb1hl2g3esd8HH9VBgwpNpDM6gzvA7afdwB18fvhYEl0A6aQdr5JBherutWjjwPUY50h5tgdAH/7gqNku+VxI5cBx+DjzEkhr/gbbgaGqHEjlwJpjnPKcWJPoA+kLYSOWJWexE8/i+8BaPAMuE98Mk40QyICst6KJEjg+Bn8PhK6AVBl8MO8NhGML+nqUSOjADLA0+e4ECRTNVLwd8egCGQphI5YmZygXvyRAeKpCPLwd/uh1Z1TwpK5Eg/+BY8vhb6g+eI1ede8NgnkOnQcrHPh/CDTTAb5oIlguPWOw9A2krkiHJsNXhOKU6yAGzI0lZiR1Q3sIRxLZiG5Ruwc2uEE6oqR5TtpZnp5gKul0Y5oap2pFG6CK6BUtuayhFrvM1wCBaDbUdQ0ziibV+Btontrd1sUN0d8X0SuV0TQ/7+BdAuX8gmGf/+D6wwfBnX1ZEH4UOw2zQhVKsbwW0pDZ0Dt8Ax0E7tHQl1ccQKwAtaDTuXfA9uMyXVFbANnGMD2NCpeyHY+iOsgTZzxPRrWf8ZOKGP3s0Mmy4vsg+GQ1wZUovA37qP5ZMJMpzugaOgvZ7jvzU7YvkyHX6BMKGZ5VIIW0yOfwFxu8i7wWrbhT3TgTIyfN1tdO6aHXHb6CXwCfjbPXAf6JwKizHsDm6FSs74sg03xbC5DMrJuaeAa6gmR1xopkUn0Ej/1ggvUCzLmoUQLmaFXNyYlSqElGHpjmKUnPsjqMoR37DeiYPg+Va9r0DLlmUZeUHrsRBmK6AvFMsbMBU8x5DyGpVuqLuh7hUkdsRQehM03rvmgpsMbpRVkm9j+3vD0Iu6M1jsvP3/YXBe77LOV1JiR/z/XeCC9UKeZ8lgpkoiL/wyhDk0wqTgt5jvCmM2ae4RxFEiR7zbD8Mf4HGzib2HVW81cr5XwRDSoU8hOGFS8CNOpZAKiu2I4WBWsu/wmBliLMR57FFysbsb45wBnZgEcZ1QsRyxHLCldcw7Z1a6E5JcKEou7mfAha8xOlGa8Sop0pHX4BEIb04zyHNgLLe1rAgMNd/k1dygSEcMnxBKR2AapL0zEleRjoihtB1ug7YKpXoo0hGzyVNwFWRdkY740mrk944kinQk6s2eNV3giBnpt8KAdVMzOmLpkx/4sjDgt/asZqlS2TVaTWu3EZWXIeWAhVstfXaauh1Cc2WLnZefA9w3ctA+22q0kTuIlXQHaKf22lJYieTl2/VpCN2ejY37un5GWJUhDKWdoH3a6evCUqfVTTd7PQpWuJ6UdSw0daJ457FFeub2jdnAR+fntF8zhPb8AH4StxWuWGh6gh867cOHZgjtGQglyuXOA1Yol/Us9dadAAAAAElFTkSuQmCC</Binary>
+      </Property>
+      <Property name="SizeMode">CenterImage</Property>
+      <Property name="TabStop">False</Property>
+      <Property name="TabIndex">0</Property>
+      <Property name="BackColor">212, 208, 200</Property>
+      <Property name="BackgroundImageLayout">None</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Location">6, 6</Property>
+      <Property name="Name">imagebox1</Property>
+      <Property name="Size">48, 48</Property>
+    </Object>
+    <Property name="PmWidget">
+      <Property name="Align">TopLeft</Property>
+      <Property name="BindTouchEnd">
+      </Property>
+      <Property name="BindTouchStart">
+      </Property>
+      <Property name="font">asc</Property>
+      <Property name="FontSize">12</Property>
+      <Property name="Opacity">255</Property>
+      <Property name="PathBackImage">
+      </Property>
+      <Property name="Visibled">False</Property>
+      <Property name="X">15</Property>
+      <Property name="Y">15</Property>
+      <Property name="_Height">60</Property>
+      <Property name="_Name">CustomPanel1</Property>
+      <Property name="_Width">600</Property>
+      <Property name="BkColor">255,255,245,223</Property>
+      <Property name="FrColor">255,0,0,0</Property>
+    </Property>
+    <Property name="BackColor">255, 245, 223</Property>
+    <Property name="ClientSize">600, 60</Property>
+    <Property name="Location">15, 15</Property>
+    <Property name="Text">CustomPanel1</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="ForeColor">0, 0, 0</Property>
+    <Property name="Name">custompanel1</Property>
+  </Object>

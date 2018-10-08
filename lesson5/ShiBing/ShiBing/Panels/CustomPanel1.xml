@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <widget class="Panel" name="CustomPanel1">
+    <property name="background">
+      <a>255</a>
+      <r>255</r>
+      <g>245</g>
+      <b>223</b>
+    </property>
+    <property name="rect">
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>60</height>
+    </property>
+    <widgets>
+      <widget name="button1" class="Button" bindtap="cusBtn">
+        <property name="text">
+          <string>button</string>
+        </property>
+        <property name="rect">
+          <x>74</x>
+          <y>6</y>
+          <width>500</width>
+          <height>48</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+        <property name="font">
+          <family>DROIDSANSFALLBACK.TTF</family>
+          <size>26</size>
+        </property>
+      </widget>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>imageErr.png</string>
+        </property>
+        <property name="rect">
+          <x>6</x>
+          <y>6</y>
+          <width>48</width>
+          <height>48</height>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

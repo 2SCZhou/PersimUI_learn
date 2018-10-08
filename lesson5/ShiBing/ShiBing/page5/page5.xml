@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page5">
+    <property name="backgroundImg">
+      <string>404.png</string>
+    </property>
+    <property name="enterAnim">
+      <type>AnimFade</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <property name="exitAnim">
+      <type>AnimFade</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <widgets>
+      <widget name="button1" class="Button" bindtap="onBtn">
+        <property name="rect">
+          <x>335</x>
+          <y>321</y>
+          <width>132</width>
+          <height>72</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>
