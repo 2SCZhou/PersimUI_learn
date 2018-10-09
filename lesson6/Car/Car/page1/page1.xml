@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <property name="backgroundImg">
+      <string>logo1.png</string>
+    </property>
+    <property name="enterAnim">
+      <type>AnimFade</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <property name="exitAnim">
+      <type>AnimFade</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+  </widget>
+</rtgui>

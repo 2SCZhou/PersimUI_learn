@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page2">
+    <property name="background">
+      <a>255</a>
+      <r>0</r>
+      <g>0</g>
+      <b>0</b>
+    </property>
+    <property name="enterAnim">
+      <type>AnimFade</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <property name="exitAnim">
+      <type>AnimFade</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <widgets>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>2.png</string>
+        </property>
+        <property name="rect">
+          <x>141</x>
+          <y>176</y>
+          <width>518</width>
+          <height>128</height>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>0</r>
+          <g>0</g>
+          <b>0</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>

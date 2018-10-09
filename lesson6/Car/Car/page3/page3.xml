@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.0">
+  <class>Page</class>
+  <widget class="Page" name="page1">
+    <property name="background">
+      <a>255</a>
+      <r>0</r>
+      <g>0</g>
+      <b>0</b>
+    </property>
+    <property name="exitAnim">
+      <type>AnimFade</type>
+      <frames>10</frames>
+      <interval>50</interval>
+    </property>
+    <widgets>
+      <widget name="imagebox4" class="ImageBox">
+        <property name="img">
+          <string>s14.png</string>
+        </property>
+        <property name="rect">
+          <x>658</x>
+          <y>380</y>
+          <width>95</width>
+          <height>81</height>
+        </property>
+      </widget>
+      <widget name="imagebox3" class="ImageBox">
+        <property name="img">
+          <string>s13.png</string>
+        </property>
+        <property name="rect">
+          <x>557</x>
+          <y>381</y>
+          <width>95</width>
+          <height>80</height>
+        </property>
+      </widget>
+      <widget name="imagebox2" class="ImageBox">
+        <property name="img">
+          <string>s12.png</string>
+        </property>
+        <property name="rect">
+          <x>151</x>
+          <y>381</y>
+          <width>95</width>
+          <height>80</height>
+        </property>
+      </widget>
+      <widget name="imagebox1" class="ImageBox">
+        <property name="img">
+          <string>s11.png</string>
+        </property>
+        <property name="rect">
+          <x>50</x>
+          <y>381</y>
+          <width>95</width>
+          <height>80</height>
+        </property>
+      </widget>
+      <widget name="button1" class="Button" bindtap="onstart">
+        <property name="norImg">
+          <string>start2.png</string>
+        </property>
+        <property name="rect">
+          <x>350</x>
+          <y>375</y>
+          <width>100</width>
+          <height>100</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="background">
+          <a>0</a>
+          <r>212</r>
+          <g>208</g>
+          <b>200</b>
+        </property>
+      </widget>
+      <widget name="button3" class="Button" bindtap="onbreak">
+        <property name="norImg">
+          <string>break.png</string>
+        </property>
+        <property name="longpress" />
+        <property name="longPressMs">
+          <number>100</number>
+        </property>
+        <property name="rect">
+          <x>450</x>
+          <y>375</y>
+          <width>100</width>
+          <height>100</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+      </widget>
+      <widget name="button2" class="Button" bindtap="onup">
+        <property name="norImg">
+          <string>up.png</string>
+        </property>
+        <property name="longpress" />
+        <property name="longPressMs">
+          <number>100</number>
+        </property>
+        <property name="rect">
+          <x>250</x>
+          <y>375</y>
+          <width>100</width>
+          <height>100</height>
+        </property>
+        <property name="align">
+          <enum>RTGUI_ALIGN_CENTER_HORIZONTAL | RTGUI_ALIGN_CENTER_VERTICAL</enum>
+        </property>
+        <property name="font">
+          <family>hz</family>
+          <size>12</size>
+        </property>
+      </widget>
+      <widget name="Canvas1" class="Canvas">
+        <property name="rect">
+          <x>1</x>
+          <y>1</y>
+          <width>800</width>
+          <height>360</height>
+        </property>
+        <property name="background">
+          <a>255</a>
+          <r>0</r>
+          <g>0</g>
+          <b>0</b>
+        </property>
+      </widget>
+    </widgets>
+  </widget>
+</rtgui>
